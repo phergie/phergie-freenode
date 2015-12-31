@@ -18,7 +18,3 @@
 From the project root:
 
 `./vendor/bin/envoy run deploy:prod`
-
-If you cannot run this command without being prompted for a password you cannot run a deploy:
-
-`ssh phergie@phergie.org`
