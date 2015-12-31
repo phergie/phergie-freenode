@@ -1,0 +1,178 @@
+<?php
+
+use Chrismou\Phergie\Plugin\Audioscrobbler\Plugin as AudioscrobblerPlugin;
+use Chrismou\Phergie\Plugin\Dice\Plugin as DicePlugin;
+use Chrismou\Phergie\Plugin\Google\Plugin as GooglePlugin;
+use Chrismou\Phergie\Plugin\PingPong\Plugin as PingPongPlugin;
+use Chrismou\Phergie\Plugin\Weather\Plugin as WeatherPlugin;
+use Phergie\Irc\Connection;
+use Phergie\Irc\Plugin\React\AutoJoin\Plugin as AutoJoinPlugin;
+use Phergie\Irc\Plugin\React\BOFH\Plugin as BofhPlugin;
+use Phergie\Irc\Plugin\React\Command\Plugin as CommandPlugin;
+use Phergie\Irc\Plugin\React\CommandHelp\Plugin as CommandHelpPlugin;
+use Phergie\Irc\Plugin\React\Daddy\Plugin as DaddyPlugin;
+use Phergie\Irc\Plugin\React\EventFilter\Plugin as EventFilterPlugin;
+use Phergie\Irc\Plugin\React\EventFilter\UserFilter;
+use Phergie\Irc\Plugin\React\JoinPart\Plugin as JoinPartPlugin;
+use Phergie\Irc\Plugin\React\MagicEightBall\Plugin as MagicEightBallPlugin;
+use Phergie\Irc\Plugin\React\NickServ\Plugin as NickServPlugin;
+use Phergie\Irc\Plugin\React\Quit\Plugin as QuitPlugin;
+use Phergie\Irc\Plugin\React\TableFlip\Plugin as TableFlipPlugin;
+use Phergie\Irc\Plugin\React\Url\DefaultUrlHandler;
+use Phergie\Irc\Plugin\React\Url\Mime as MimeHandlers;
+use Phergie\Irc\Plugin\React\Url\Plugin as UrlPlugin;
+use Phergie\Irc\Plugin\React\YouTube\Plugin as YouTubePlugin;
+use Phergie\Plugin\Dns\Plugin as DnsPlugin;
+use Phergie\Plugin\Http\Plugin as HttpPlugin;
+use PSchwisow\Phergie\Plugin\UrlShorten\Plugin as UrlShortenPlugin;
+use PSchwisow\Phergie\Plugin\Puppet\Plugin as PuppetPlugin;
+use Renegade334\Phergie\Plugin\React\Ping\Plugin as PingPlugin;
+use Shutterstock\Phergie\Plugin\Bigstock\Plugin as BigstockPlugin;
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+
+$audioscrobbler = new AudioscrobblerPlugin([
+    'lastfm' => getenv('LASTFM_API_KEY'),
+]);
+
+$bigstock = new BigstockPlugin([
+    // REQUIRED: The API account ID associated with your Bigstock account
+    'accountId' => getenv('BIGSTOCK_ACCOUNT_ID'),
+
+    // OPTIONAL: The formatter used for output (default value is shown)
+    'formatter' => new \Shutterstock\Phergie\Plugin\Bigstock\DefaultFormatter(
+        '%title% - %url_short% < %large_thumb% >'
+    ),
+
+    // OPTIONAL: How long to wait for URL shortener before skipping it (default value is shown)
+    'shortenTimeout' => 15,
+]);
+
+$bofh = new BofhPlugin([]);
+
+$dice = new DicePlugin;
+
+$google = new GooglePlugin;
+
+$joinpart = new JoinPartPlugin;
+
+$puppet = new PuppetPlugin;
+
+$table_flip = new TableFlipPlugin;
+
+$weather = new WeatherPlugin([
+    'config' => [
+        'appId' => getenv('WEATHER_APP_ID'),
+    ],
+]);
+
+$quit = new QuitPlugin;
+
+return [
+
+    'plugins' => [
+        $audioscrobbler,
+
+        new AutoJoinPlugin([
+            'channels' => [
+                '##phergie-testing'
+            ],
+            'wait-for-nickserv' => true,
+        ]),
+
+        $bigstock,
+
+        $bofh,
+
+        new CommandHelpPlugin([
+            'plugins' => [
+                $audioscrobbler,
+                $bigstock,
+                $bofh,
+                $dice,
+                $google,
+                $joinpart,
+                $puppet,
+                $table_flip,
+                $weather,
+                $quit,
+            ],
+        ]),
+
+        new CommandPlugin([
+            'prefix' => '!',
+        ]),
+
+        new DaddyPlugin,
+
+        $dice,
+
+        new DnsPlugin,
+
+        new EventFilterPlugin([
+            'plugins' => [
+                $puppet,
+                $quit,
+            ],
+            'filter' => new UserFilter(['YOUR-NICK!*@*']), # CHANGE ME
+        ]),
+
+        $google,
+
+        new HttpPlugin,
+
+        $joinpart,
+
+        new MagicEightBallPlugin,
+
+        new NickServPlugin([
+            'password' => getenv('NICKSERV_PASSWORD'),
+        ]),
+
+        new PingPlugin,
+
+        new PingPongPlugin([
+            'reply' => true,
+        ]),
+
+        $table_flip,
+
+        new UrlPlugin([
+            'handler' => new DefaultUrlHandler(
+                '[%url-short%] %composed-title%',
+                [
+                    new MimeHandlers\Html,
+                    new MimeHandlers\Image,
+                ]
+            ),
+        ]),
+
+        new UrlShortenPlugin,
+
+        $weather,
+
+        new YouTubePlugin([
+            'key' => getenv('YOUTUBE_KEY'),
+            'publishedFormat' => 'Y-m-d H:i',
+            'durationFormat' => '%hh%im%ss',
+        ]),
+
+    ],
+
+    'connections' => [
+
+        new Connection([
+            'serverHostname' => 'irc.freenode.net',
+            'serverPort' => 6697,
+            'username' => 'Your-Phergie', # CHANGE ME
+            'realname' => 'Your name', # CHANGE ME
+            'nickname' => 'Alt-Phergie', # CHANGE ME
+            'options' => [
+                'transport' => 'ssl',
+            ],
+        ]),
+
+    ],
+
+];

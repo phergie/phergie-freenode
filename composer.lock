@@ -1,0 +1,3062 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5e41b93a071579bdbcc7ab02c62e88ac",
+    "content-hash": "7a2e2490e4ad53a0632db4c35746d701",
+    "packages": [
+        {
+            "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
+            "version": "dev-phergie-version2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-audioscrobbler.git",
+                "reference": "b3b705705f5566ccb988c463d57e7f70df934fcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-audioscrobbler/zipball/b3b705705f5566ccb988c463d57e7f70df934fcf",
+                "reference": "b3b705705f5566ccb988c463d57e7f70df934fcf",
+                "shasum": ""
+            },
+            "require": {
+                "openlss/func-time": "*",
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-http": "~4",
+                "phergie/phergie-irc-plugin-react-command": "~2",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.0.0-beta2",
+                "phergie/phergie-irc-plugin-react-autojoin": "~2",
+                "phergie/phergie-irc-plugin-react-commandhelp": "~2",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "*",
+                "vectorface/dunit": "^2.1"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Plugin\\Audioscrobbler\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Tests\\Plugin\\Audioscrobbler\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Chrisostomou",
+                    "email": "dev@mou.me",
+                    "homepage": "https://mou.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for returning the current or last played song for a user on last.fm or libre.fm",
+            "homepage": "http://github.com/chrismou/phergie-irc-plugin-react-audioscrobbler",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "dev@mou.me",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-audioscrobbler/issues",
+                "source": "https://github.com/chrismou/phergie-irc-plugin-react-audioscrobbler"
+            },
+            "time": "2015-12-31 15:04:44"
+        },
+        {
+            "name": "chrismou/phergie-irc-plugin-react-dice",
+            "version": "dev-version-2-updates",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-dice.git",
+                "reference": "aa2f0026080e0e642667c0c4f49620c647ea32ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-dice/zipball/aa2f0026080e0e642667c0c4f49620c647ea32ea",
+                "reference": "aa2f0026080e0e642667c0c4f49620c647ea32ea",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "<3.0",
+                "phergie/phergie-irc-plugin-react-command": "~2.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "*",
+                "vectorface/dunit": "^2.1"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Plugin\\Dice\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Tests\\Plugin\\Dice\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Chrisostomou",
+                    "email": "dev@mou.me",
+                    "homepage": "https://mou.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for returning randomly generated numbers in response to dice rolling requests",
+            "homepage": "http://github.com/chrismou/phergie-irc-plugin-react-dice",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "dev@mou.me",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-dice/issues",
+                "source": "https://github.com/chrismou/phergie-irc-plugin-react-dice"
+            },
+            "time": "2015-12-31 15:47:14"
+        },
+        {
+            "name": "chrismou/phergie-irc-plugin-react-google",
+            "version": "dev-phergie-version2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-google.git",
+                "reference": "3f407d7e1e0cdc36d90b49c026c8a151c984939a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-google/zipball/3f407d7e1e0cdc36d90b49c026c8a151c984939a",
+                "reference": "3f407d7e1e0cdc36d90b49c026c8a151c984939a",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "<4.0",
+                "phergie/phergie-irc-plugin-http": "~4.0",
+                "phergie/phergie-irc-plugin-react-command": "~2.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "*",
+                "vectorface/dunit": "^2.1"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandalias": "set up aliases for bot commands",
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Plugin\\Google\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Tests\\Plugin\\Google\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Chrisostomou",
+                    "email": "dev@mou.me",
+                    "homepage": "https://mou.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for returning Google search results and estimated result counts",
+            "homepage": "http://github.com/chrismou/phergie-irc-plugin-react-google",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "dev@mou.me",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-google/issues",
+                "source": "https://github.com/chrismou/phergie-irc-plugin-react-google"
+            },
+            "time": "2015-12-31 15:13:10"
+        },
+        {
+            "name": "chrismou/phergie-irc-plugin-react-pingpong",
+            "version": "dev-phergie-version2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-pingpong.git",
+                "reference": "c3d8ba0ce1f4f6064890f23597663ce460070d9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-pingpong/zipball/c3d8ba0ce1f4f6064890f23597663ce460070d9a",
+                "reference": "c3d8ba0ce1f4f6064890f23597663ce460070d9a",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "<3.0",
+                "phergie/phergie-irc-plugin-react-command": "~2.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "*",
+                "vectorface/dunit": "^2.1"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Plugin\\PingPong\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Tests\\Plugin\\PingPong\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Chrisostomou",
+                    "email": "dev@mou.me",
+                    "homepage": "https://mou.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for testing the bot's responsiveness",
+            "homepage": "http://github.com/chrismou/phergie-irc-plugin-react-pingpong",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "dev@mou.me",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-pingpong/issues",
+                "source": "https://github.com/chrismou/phergie-irc-plugin-react-pingpong"
+            },
+            "time": "2015-12-31 15:53:38"
+        },
+        {
+            "name": "chrismou/phergie-irc-plugin-react-weather",
+            "version": "dev-version2-updates",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-weather.git",
+                "reference": "c1af0975d16ace1c0ee3bcf3e1ae64faf3d77552"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-weather/zipball/c1af0975d16ace1c0ee3bcf3e1ae64faf3d77552",
+                "reference": "c1af0975d16ace1c0ee3bcf3e1ae64faf3d77552",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "<4.0",
+                "phergie/phergie-irc-plugin-http": "~4.0",
+                "phergie/phergie-irc-plugin-react-command": "~2.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.0.0-beta2",
+                "phergie/phergie-irc-plugin-react-autojoin": "~2.0",
+                "phergie/phergie-irc-plugin-react-commandhelp": "~2.0",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "*",
+                "vectorface/dunit": "^2"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandalias": "set up aliases for bot commands",
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Plugin\\Weather\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Chrismou\\Phergie\\Tests\\Plugin\\Weather\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Chrisostomou",
+                    "email": "dev@mou.me",
+                    "homepage": "https://mou.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for returning weather information for a given location",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "dev@mou.me",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-weather/issues",
+                "source": "https://github.com/chrismou/phergie-irc-plugin-react-weather"
+            },
+            "time": "2015-12-31 15:18:06"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Inflector\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "evenement/evenement",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2012-11-02 14:49:47"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "5.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f3c8c22471cb55475105c14769644a49c3262b93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f3c8c22471cb55475105c14769644a49c3262b93",
+                "reference": "f3c8c22471cb55475105c14769644a49c3262b93",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/ringphp": "^1.1",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2015-05-20 03:47:55"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4d0bdbe1206df7440219ce14c972aa57cc5e4982",
+                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "PSR-7 message implementation",
+            "keywords": [
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "time": "2015-11-03 01:34:55"
+        },
+        {
+            "name": "guzzlehttp/ringphp",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/RingPHP.git",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/streams": "~3.0",
+                "php": ">=5.4.0",
+                "react/promise": "~2.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "ext-curl": "Guzzle will use specific adapters if cURL is present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Ring\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "time": "2015-05-20 03:37:09"
+        },
+        {
+            "name": "guzzlehttp/streams",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/streams.git",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Stream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple abstraction over streams of data",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "stream"
+            ],
+            "time": "2014-10-12 19:18:40"
+        },
+        {
+            "name": "illuminate/contracts",
+            "version": "v5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/contracts.git",
+                "reference": "51b3acf96a12f5a10d767d5f2a534fed6f304235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/51b3acf96a12f5a10d767d5f2a534fed6f304235",
+                "reference": "51b3acf96a12f5a10d767d5f2a534fed6f304235",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Contracts\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "The Illuminate Contracts package.",
+            "homepage": "http://laravel.com",
+            "time": "2015-12-19 14:25:38"
+        },
+        {
+            "name": "illuminate/support",
+            "version": "v5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "0b25fb20b0c75392b0b3848fe067275c51235e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/0b25fb20b0c75392b0b3848fe067275c51235e37",
+                "reference": "0b25fb20b0c75392b0b3848fe067275c51235e37",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "~1.0",
+                "ext-mbstring": "*",
+                "illuminate/contracts": "5.2.*",
+                "php": ">=5.5.9"
+            },
+            "suggest": {
+                "illuminate/filesystem": "Required to use the composer class (5.2.*).",
+                "jeremeamia/superclosure": "Required to be able to serialize closures (~2.2).",
+                "paragonie/random_compat": "Provides a compatible interface like PHP7's random_bytes() in PHP 5 projects (~1.1).",
+                "symfony/polyfill-php56": "Required to use the hash_equals function on PHP 5.5 (~1.0).",
+                "symfony/process": "Required to use the composer class (2.8.*|3.0.*).",
+                "symfony/var-dumper": "Improves the dd function (2.8.*|3.0.*)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "The Illuminate Support package.",
+            "homepage": "http://laravel.com",
+            "time": "2015-12-07 16:09:55"
+        },
+        {
+            "name": "laravel/envoy",
+            "version": "v1.0.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/envoy.git",
+                "reference": "1cb822e6100daed96b3f359868aac0352499ac7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/envoy/zipball/1cb822e6100daed96b3f359868aac0352499ac7f",
+                "reference": "1cb822e6100daed96b3f359868aac0352499ac7f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~4.1|~5.0",
+                "nategood/httpful": "~0.2",
+                "symfony/console": "~2.3",
+                "symfony/process": "~2.3"
+            },
+            "bin": [
+                "envoy"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Elegant SSH tasks for PHP.",
+            "keywords": [
+                "laravel",
+                "ssh"
+            ],
+            "time": "2015-07-17 01:07:53"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.17.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "raven/raven": "^0.13",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "swiftmailer/swiftmailer": "~5.3",
+                "videlalvaro/php-amqplib": "~2.4"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.16.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2015-10-14 12:51:02"
+        },
+        {
+            "name": "nategood/httpful",
+            "version": "0.2.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "time": "2015-10-26 16:11:30"
+        },
+        {
+            "name": "nojimage/twitter-text-php",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nojimage/twitter-text-php.git",
+                "reference": "2cf4d681f7cbe0a564fb8f32c423b35b85baae20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nojimage/twitter-text-php/zipball/2cf4d681f7cbe0a564fb8f32c423b35b85baae20",
+                "reference": "2cf4d681f7cbe0a564fb8f32c423b35b85baae20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.8"
+            },
+            "require-dev": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "*",
+                "twitter/twitter-text-conformance": "1.8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Twitter_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Sanford",
+                    "email": "matt@mzsanford.com",
+                    "homepage": "http://mzsanford.com"
+                },
+                {
+                    "name": "Mike Cochrane",
+                    "email": "mikec@mikenz.geek.nz",
+                    "homepage": "http://mikenz.geek.nz"
+                },
+                {
+                    "name": "Nick Pope",
+                    "email": "git@nickpope.me.uk",
+                    "homepage": "http://www.nickpope.me.uk"
+                },
+                {
+                    "name": "Takashi Nojima",
+                    "homepage": "http://php-tips.com"
+                }
+            ],
+            "description": "A library of PHP classes that provide auto-linking and extraction of usernames, lists, hashtags and URLs from tweets.",
+            "homepage": "https://github.com/nojimage/twitter-text-php",
+            "keywords": [
+                "autolink",
+                "extract",
+                "text",
+                "twitter"
+            ],
+            "time": "2014-02-28 15:18:45"
+        },
+        {
+            "name": "openlss/func-time",
+            "version": "0.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openlss/func-time.git",
+                "reference": "fe9d7a1215004f8b4bd69bbe37cdbc1602fb048b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openlss/func-time/zipball/fe9d7a1215004f8b4bd69bbe37cdbc1602fb048b",
+                "reference": "fe9d7a1215004f8b4bd69bbe37cdbc1602fb048b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "func/time.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Tong",
+                    "email": "contact@nullivex.com",
+                    "homepage": "http://bryantong.com"
+                },
+                {
+                    "name": "Tony Butler",
+                    "email": "spudz76@gmail.com",
+                    "homepage": "http://openlss.org"
+                }
+            ],
+            "description": "Time helper functions",
+            "homepage": "http://openlss.org",
+            "keywords": [
+                "age",
+                "future age",
+                "hours ago",
+                "time"
+            ],
+            "time": "2013-03-27 03:34:55"
+        },
+        {
+            "name": "phergie/phergie-irc-bot-react",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-bot-react.git",
+                "reference": "d8587c51144dffe45dc925d87740a7f1e0ea23d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-bot-react/zipball/d8587c51144dffe45dc925d87740a7f1e0ea23d4",
+                "reference": "d8587c51144dffe45dc925d87740a7f1e0ea23d4",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "~2.0",
+                "monolog/monolog": "~1.6",
+                "phergie/phergie-irc-client-react": "~3",
+                "phergie/phergie-irc-connection": "~2.0",
+                "phergie/phergie-irc-event": "~1.0",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "~1.0"
+            },
+            "bin": [
+                "bin/phergie"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Bot\\React\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "IRC bot built on React",
+            "keywords": [
+                "bot",
+                "irc",
+                "react"
+            ],
+            "time": "2015-12-21 21:17:58"
+        },
+        {
+            "name": "phergie/phergie-irc-client-react",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-client-react.git",
+                "reference": "55efba19c7a48764d4b997d5e9d473e0f75db232"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-client-react/zipball/55efba19c7a48764d4b997d5e9d473e0f75db232",
+                "reference": "55efba19c7a48764d4b997d5e9d473e0f75db232",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "~1.6",
+                "phergie/phergie-irc-connection": "~2.0",
+                "phergie/phergie-irc-generator": "~1.5",
+                "phergie/phergie-irc-parser": "~2.0",
+                "php": ">=5.5",
+                "psr/log": "~1.0",
+                "react/dns": "~0.4.0",
+                "react/event-loop": "~0.4.0",
+                "react/promise": "~2.0",
+                "react/socket-client": "~0.4.2",
+                "react/stream": "~0.4.2"
+            },
+            "conflict": {
+                "phergie/phergie-irc-plugin-react-pong": "*"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "~1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Client\\React\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "IRC client library built on React",
+            "keywords": [
+                "client",
+                "irc",
+                "react"
+            ],
+            "time": "2015-12-14 23:56:41"
+        },
+        {
+            "name": "phergie/phergie-irc-connection",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-connection.git",
+                "reference": "c5aa9188693d7ac86dc4842f4dde3d63a523f741"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-connection/zipball/c5aa9188693d7ac86dc4842f4dde3d63a523f741",
+                "reference": "c5aa9188693d7ac86dc4842f4dde3d63a523f741",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Data structure for containing information about an IRC client connection",
+            "keywords": [
+                "Connection",
+                "client",
+                "irc",
+                "server"
+            ],
+            "time": "2015-05-26 15:14:31"
+        },
+        {
+            "name": "phergie/phergie-irc-event",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-event.git",
+                "reference": "bccc65cd6371ed441984d23713cfbe197245b677"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-event/zipball/bccc65cd6371ed441984d23713cfbe197245b677",
+                "reference": "bccc65cd6371ed441984d23713cfbe197245b677",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-connection": "2.*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Event\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PHP data structure for IRC event information",
+            "keywords": [
+                "event",
+                "irc"
+            ],
+            "time": "2015-06-09 17:45:15"
+        },
+        {
+            "name": "phergie/phergie-irc-generator",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-generator.git",
+                "reference": "d333d7ea44d90dc2defe2a13699f6d4c382c0193"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-generator/zipball/d333d7ea44d90dc2defe2a13699f6d4c382c0193",
+                "reference": "d333d7ea44d90dc2defe2a13699f6d4c382c0193",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Generator for messages conforming to the IRC protocol",
+            "keywords": [
+                "generator",
+                "irc"
+            ],
+            "time": "2015-07-16 16:26:11"
+        },
+        {
+            "name": "phergie/phergie-irc-parser",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-parser.git",
+                "reference": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-parser/zipball/cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
+                "reference": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "~1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Parser for messages conforming to the IRC protocol",
+            "keywords": [
+                "irc",
+                "parser"
+            ],
+            "time": "2015-11-12 15:21:51"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-dns",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/plugin-dns.git",
+                "reference": "e24af66296819c2c02804a1cbe0fbcef63cd9e15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/plugin-dns/zipball/e24af66296819c2c02804a1cbe0fbcef63cd9e15",
+                "reference": "e24af66296819c2c02804a1cbe0fbcef63cd9e15",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "^2.0",
+                "php": ">=5.5",
+                "react/dns": "^0.4.1"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "^1.0.2|^1.1",
+                "phergie/phergie-irc-plugin-react-command": "^2"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-command": "Required if you want to make use of the command support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Plugin\\Dns\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "description": "Phergie plugin for Looking up IP's by hostnames",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "phergieplugin",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-28 23:49:13"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-http",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/plugin-http.git",
+                "reference": "6f44190806e0817c0fd1dfb06bf221903dddf7cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/plugin-http/zipball/6f44190806e0817c0fd1dfb06bf221903dddf7cc",
+                "reference": "6f44190806e0817c0fd1dfb06bf221903dddf7cc",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2.0",
+                "phergie/phergie-irc-plugin-dns": "^4.0",
+                "php": "^5.5||^7.0",
+                "wyrihaximus/react-guzzle-ring": "^1.0"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "^1.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Plugin\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "description": "Phergie plugin for Provide HTTP functionality to other plugins",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "phergieplugin",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-29 12:41:31"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-autojoin",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-autojoin.git",
+                "reference": "110ce64f3099a63f65b1229c3552b58dead6fa96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-autojoin/zipball/110ce64f3099a63f65b1229c3552b58dead6fa96",
+                "reference": "110ce64f3099a63f65b1229c3552b58dead6fa96",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "~1.0"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-nickserv": "Enables wait-for-nickserv autojoin functionality"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\AutoJoin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for automatically joining IRC channels",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-21 23:43:28"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-bofh",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-bofh.git",
+                "reference": "694c744ade50a4a4e9b5e5e7bae99ca620fcaeee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-bofh/zipball/694c744ade50a4a4e9b5e5e7bae99ca620fcaeee",
+                "reference": "694c744ade50a4a4e9b5e5e7bae99ca620fcaeee",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2",
+                "phergie/phergie-irc-plugin-react-url": "~3"
+            },
+            "require-dev": {
+                "phergie/phergie-irc-bot-react-development": "~1.0"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\BOFH\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Ferguson",
+                    "email": "joe@joeferguson.me",
+                    "homepage": "http://www.joeferguson.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for Pull excuses from bastard operator from hell",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "time": "2015-12-31 14:48:47"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-command",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-command.git",
+                "reference": "c4310f7856dbee97b91fe62ec3bf7e1b11a2db95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-command/zipball/c4310f7856dbee97b91fe62ec3bf7e1b11a2db95",
+                "reference": "c4310f7856dbee97b91fe62ec3bf7e1b11a2db95",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\Command\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for parsing commands issued to the bot",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-21 22:30:19"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-commandhelp",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-commandhelp.git",
+                "reference": "b7851c52e461967f46d81f4ebe4c484e0b70508d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-commandhelp/zipball/b7851c52e461967f46d81f4ebe4c484e0b70508d",
+                "reference": "b7851c52e461967f46d81f4ebe4c484e0b70508d",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\CommandHelp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for providing usage information for available bot commands to users",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-21 22:40:49"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-daddy",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dstockto/phergie-irc-plugin-react-daddy.git",
+                "reference": "37c82a5aba6ec7d9c704c43adfdd8d540ab8fe15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dstockto/phergie-irc-plugin-react-daddy/zipball/37c82a5aba6ec7d9c704c43adfdd8d540ab8fe15",
+                "reference": "37c82a5aba6ec7d9c704c43adfdd8d540ab8fe15",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "0.1.*@dev",
+                "phake/phake": "1.0.*",
+                "phpunit/phpunit": "4.0.*",
+                "satooshi/php-coveralls": "v0.6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\Daddy\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Stockton",
+                    "email": "phergie-daddy@davidstockton.com",
+                    "homepage": "http://davidstockton.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie IRC bot plugin responding to Who's your *? phrases",
+            "homepage": "https://github.com/dstockto/phergie-irc-plugin-react-daddy",
+            "keywords": [
+                "irc",
+                "phergie"
+            ],
+            "time": "2015-12-21 22:59:21"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-eventfilter",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-eventfilter.git",
+                "reference": "d5c4024034f466e510572927cac8956c10c1cac5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-eventfilter/zipball/d5c4024034f466e510572927cac8956c10c1cac5",
+                "reference": "d5c4024034f466e510572927cac8956c10c1cac5",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phergie/phergie-irc-plugin-react-usermode": "~2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-usermode": "supports filtering of events by channel modes of originating users"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\EventFilter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for limiting processing of incoming events based on event metadata",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-22 03:29:44"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-joinpart",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-joinpart.git",
+                "reference": "a83c632f0523c51086f381d09439d2d06e4adfb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-joinpart/zipball/a83c632f0523c51086f381d09439d2d06e4adfb6",
+                "reference": "a83c632f0523c51086f381d09439d2d06e4adfb6",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\JoinPart\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for providing commands to instruct the bot to join and part channels",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-22 04:09:32"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-magic-eight-ball",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dstockto/phergie-irc-plugin-react-magic-eightball.git",
+                "reference": "269a102982541e7a00165a0a97e3f849c5ee0205"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dstockto/phergie-irc-plugin-react-magic-eightball/zipball/269a102982541e7a00165a0a97e3f849c5ee0205",
+                "reference": "269a102982541e7a00165a0a97e3f849c5ee0205",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "0.1.*@dev",
+                "phake/phake": "1.0.*",
+                "phpunit/phpunit": "4.1.*",
+                "satooshi/php-coveralls": "v0.6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\MagicEightBall\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for Helping users make decisions",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "time": "2015-12-22 07:59:16"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-nickserv",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-nickserv.git",
+                "reference": "bbabfeb90cf3657c147d0be22f03a910eb8891ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-nickserv/zipball/bbabfeb90cf3657c147d0be22f03a910eb8891ad",
+                "reference": "bbabfeb90cf3657c147d0be22f03a910eb8891ad",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "~2",
+                "phpunit/phpunit": "~4.6"
+            },
+            "suggest": {
+                "pschwisow/phergie-irc-plugin-react-altnick": "Provides alternative nicks if the primary nick is in use; required for ghost feature"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\NickServ\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for interacting with the NickServ agent to authenticate the bot's identity",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-22 03:58:34"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-quit",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-quit.git",
+                "reference": "c98f74135ebf464605d97414816ca96c4a6ce2ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-quit/zipball/c98f74135ebf464605d97414816ca96c4a6ce2ef",
+                "reference": "c98f74135ebf464605d97414816ca96c4a6ce2ef",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\Quit\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for providing a command to instruct the bot to terminate a connection",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-22 03:48:58"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-tableflip",
+            "version": "dev-version-2-updates",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-tableflip.git",
+                "reference": "9ae2ed137aaad0e48484b8eb995e1919c82a56d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-tableflip/zipball/9ae2ed137aaad0e48484b8eb995e1919c82a56d6",
+                "reference": "9ae2ed137aaad0e48484b8eb995e1919c82a56d6",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\TableFlip\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Phergie\\Irc\\Tests\\Plugin\\React\\TableFlip\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Emily Stamey",
+                    "email": "elstamey@gmail.com",
+                    "homepage": "http://phergie.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for Outputting the upside down version of a phrase",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "elstamey@gmail.com",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/elstamey/phergie-irc-plugin-react-tableflip/issues",
+                "source": "https://github.com/elstamey/phergie-irc-plugin-react-tableflip"
+            },
+            "time": "2015-12-21 23:33:52"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-url",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-url.git",
+                "reference": "86626c6e771253252fae157483174f3b1718a907"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-url/zipball/86626c6e771253252fae157483174f3b1718a907",
+                "reference": "86626c6e771253252fae157483174f3b1718a907",
+                "shasum": ""
+            },
+            "require": {
+                "nojimage/twitter-text-php": "1.1.1",
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-http": "^4",
+                "php": "^5.5|^7.0",
+                "react/promise": "~1.0|~2.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "~0.1",
+                "phake/phake": "dev-VerifierResultConstraint-issue",
+                "phpunit/phpunit": "^4.6.0",
+                "satooshi/php-coveralls": "0.6.1",
+                "squizlabs/php_codesniffer": "^1.5.3",
+                "symfony/config": "~2.0",
+                "symfony/console": "~2.0",
+                "symfony/filesystem": "~2.0",
+                "symfony/stopwatch": "~2.0",
+                "vectorface/dunit": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\Url\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Phergie plugin for displaying information about URLs",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-31 14:42:09"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-youtube",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-youtube.git",
+                "reference": "dd52738ac628c7be5f0291186576e568832a58a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-youtube/zipball/dd52738ac628c7be5f0291186576e568832a58a7",
+                "reference": "dd52738ac628c7be5f0291186576e568832a58a7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "phergie/phergie-irc-bot-react": "^2",
+                "phergie/phergie-irc-plugin-react-url": "^3"
+            },
+            "require-dev": {
+                "phake/phake": "^2",
+                "phpunit/phpunit": "^4",
+                "symfony/yaml": "^2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\YouTube\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for providing information about YouTube videos",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "time": "2015-12-31 15:32:50"
+        },
+        {
+            "name": "pschwisow/phergie-irc-plugin-react-puppet",
+            "version": "dev-phergie-version2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-puppet.git",
+                "reference": "21d5ea6320db47aaa951148b2479ade83f343fb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-puppet/zipball/21d5ea6320db47aaa951148b2479ade83f343fb3",
+                "reference": "21d5ea6320db47aaa951148b2479ade83f343fb3",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*",
+                "psr/log": "1.0.0"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PSchwisow\\Phergie\\Plugin\\Puppet\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "PSchwisow\\Phergie\\Tests\\Plugin\\Puppet\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin that allows a user to effectively speak and act as the bot.",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "patrick.schwisow@gmail.com",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet/issues",
+                "source": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet"
+            },
+            "time": "2015-12-31 15:41:28"
+        },
+        {
+            "name": "pschwisow/phergie-irc-plugin-react-url-shorten",
+            "version": "dev-version2-updates",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-url-shorten.git",
+                "reference": "a43563797145a943f6319681fda93c4cee23c33d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-url-shorten/zipball/a43563797145a943f6319681fda93c4cee23c33d",
+                "reference": "a43563797145a943f6319681fda93c4cee23c33d",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-url": "~3"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PSchwisow\\Phergie\\Plugin\\UrlShorten\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "PSchwisow\\Phergie\\Tests\\Plugin\\UrlShorten\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin to provide URL shortening services for Url plugin (and others)",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "patrick.schwisow@gmail.com",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten/issues",
+                "source": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten"
+            },
+            "time": "2015-12-31 14:57:29"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2015-05-04 20:22:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "react/cache",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/cache.git",
+                "reference": "9882ab5d8b00617baae83c6996f5a34668c11beb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/9882ab5d8b00617baae83c6996f5a34668c11beb",
+                "reference": "9882ab5d8b00617baae83c6996f5a34668c11beb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "react/promise": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Cache\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async caching.",
+            "keywords": [
+                "cache"
+            ],
+            "time": "2014-02-02 01:11:26"
+        },
+        {
+            "name": "react/dns",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/dns.git",
+                "reference": "8c5ccc35dcb4b06b70eb9201842363fac7b0f3cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/8c5ccc35dcb4b06b70eb9201842363fac7b0f3cf",
+                "reference": "8c5ccc35dcb4b06b70eb9201842363fac7b0f3cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "react/cache": "0.4.*",
+                "react/promise": "~2.0",
+                "react/socket": "0.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Dns\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async DNS resolver.",
+            "keywords": [
+                "dns",
+                "dns-resolver"
+            ],
+            "time": "2014-04-12 14:09:10"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/event-loop.git",
+                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
+                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "ext-event": "~1.0",
+                "ext-libev": "*",
+                "ext-libevent": ">=0.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\EventLoop\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event loop abstraction layer that libraries can use for evented I/O.",
+            "keywords": [
+                "event-loop"
+            ],
+            "time": "2014-02-26 17:36:58"
+        },
+        {
+            "name": "react/http-client",
+            "version": "v0.4.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/http-client.git",
+                "reference": "74ad2f36e6c70eb5191e8100f5dd7d70e9480c2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/http-client/zipball/74ad2f36e6c70eb5191e8100f5dd7d70e9480c2d",
+                "reference": "74ad2f36e6c70eb5191e8100f5dd7d70e9480c2d",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "~2.0",
+                "guzzlehttp/psr7": "^1.0",
+                "php": ">=5.4.0",
+                "react/dns": "0.4.*",
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.2",
+                "react/socket-client": "0.4.*",
+                "react/stream": "0.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\HttpClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Asynchronous HTTP client library.",
+            "keywords": [
+                "http"
+            ],
+            "time": "2015-10-05 19:13:01"
+        },
+        {
+            "name": "react/promise",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "3b6fca09c7d56321057fa8867c8dbe1abf648627"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/3b6fca09c7d56321057fa8867c8dbe1abf648627",
+                "reference": "3b6fca09c7d56321057fa8867c8dbe1abf648627",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "time": "2015-07-03 13:48:55"
+        },
+        {
+            "name": "react/socket",
+            "version": "v0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/socket.git",
+                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
+                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "~2.0",
+                "php": ">=5.4.0",
+                "react/event-loop": "0.4.*",
+                "react/stream": "0.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Socket\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Library for building an evented socket server.",
+            "keywords": [
+                "Socket"
+            ],
+            "time": "2014-05-25 17:02:16"
+        },
+        {
+            "name": "react/socket-client",
+            "version": "v0.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/socket-client.git",
+                "reference": "3ca814d7e03e2a5bffeaa5773423107957a8aece"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/socket-client/zipball/3ca814d7e03e2a5bffeaa5773423107957a8aece",
+                "reference": "3ca814d7e03e2a5bffeaa5773423107957a8aece",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "react/dns": "0.4.*",
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.0",
+                "react/stream": "0.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\SocketClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Async connector to open TCP/IP and SSL/TLS based connections.",
+            "keywords": [
+                "Socket"
+            ],
+            "time": "2015-09-23 22:40:04"
+        },
+        {
+            "name": "react/stream",
+            "version": "v0.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/stream.git",
+                "reference": "305b2328d2a2e157bc13b61a0f5c6e41b666b188"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/305b2328d2a2e157bc13b61a0f5c6e41b666b188",
+                "reference": "305b2328d2a2e157bc13b61a0f5c6e41b666b188",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^2.0|^1.0",
+                "php": ">=5.3.8"
+            },
+            "require-dev": {
+                "react/event-loop": "^0.4|^0.3",
+                "react/promise": "^2.0|^1.0"
+            },
+            "suggest": {
+                "react/event-loop": "^0.4",
+                "react/promise": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Stream\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Basic readable and writable stream interfaces that support piping.",
+            "keywords": [
+                "pipe",
+                "stream"
+            ],
+            "time": "2015-10-07 18:32:58"
+        },
+        {
+            "name": "renegade334/phergie-irc-plugin-react-ping",
+            "version": "dev-version2-updates",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-ping.git",
+                "reference": "d2c7b7c85502e0b20b111ea74a867549e1f20262"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-ping/zipball/d2c7b7c85502e0b20b111ea74a867549e1f20262",
+                "reference": "d2c7b7c85502e0b20b111ea74a867549e1f20262",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Renegade334\\Phergie\\Plugin\\React\\Ping\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Renegade334\\Phergie\\Tests\\Plugin\\React\\Ping\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Renegade334",
+                    "homepage": "http://www.renegade334.me.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for verifying that the client connection has not been dropped by sending self CTCP PINGs after periods of inactivity.",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "team@phergie.org",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/Renegade334/phergie-irc-plugin-react-ping/issues",
+                "source": "https://github.com/Renegade334/phergie-irc-plugin-react-ping"
+            },
+            "time": "2015-12-29 19:02:43"
+        },
+        {
+            "name": "shutterstock/phergie-irc-plugin-react-bigstock",
+            "version": "dev-phergie-version-2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-bigstock.git",
+                "reference": "49ca2ba8765dec6a0b00f5a95cdf9ef622173479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-bigstock/zipball/49ca2ba8765dec6a0b00f5a95cdf9ef622173479",
+                "reference": "49ca2ba8765dec6a0b00f5a95cdf9ef622173479",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2",
+                "phergie/phergie-irc-plugin-react-command": "~2",
+                "phergie/phergie-irc-plugin-react-url": "~3"
+            },
+            "require-dev": {
+                "phake/phake": "~2.1",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands",
+                "pschwisow/phergie-irc-plugin-react-url-shorten": "makes short URLs available for output"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Shutterstock\\Phergie\\Plugin\\Bigstock\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Shutterstock\\Phergie\\Tests\\Plugin\\Bigstock\\": "tests"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Schwisow",
+                    "email": "patrick.schwisow@gmail.com",
+                    "homepage": "http://www.bigstockphoto.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jacob Emerick",
+                    "email": "jpemeric@gmail.com",
+                    "homepage": "http://www.bigstockphoto.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Phergie plugin for Use Bigstock API to search for and display images",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "plugin"
+            ],
+            "support": {
+                "email": "patrick.schwisow@gmail.com",
+                "irc": "irc://irc.freenode.net/phergie",
+                "issues": "https://github.com/shutterstock/phergie-irc-plugin-react-bigstock/issues",
+                "source": "https://github.com/shutterstock/phergie-irc-plugin-react-bigstock"
+            },
+            "time": "2015-12-31 14:53:50"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
+                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1|~3.0.0",
+                "symfony/process": "~2.1|~3.0.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-12-22 10:25:57"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/49ff736bd5d41f45240cec77b44967d76e0c3d25",
+                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2015-11-20 09:19:13"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "62c254438b5040bc2217156e1570cf2206e8540c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/62c254438b5040bc2217156e1570cf2206e8540c",
+                "reference": "62c254438b5040bc2217156e1570cf2206e8540c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-12-23 11:03:46"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "homepage": "http://github.com/vlucas/phpdotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2015-12-29 15:10:30"
+        },
+        {
+            "name": "wyrihaximus/react-guzzle-http-client",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/react-guzzle-http-client.git",
+                "reference": "2a18aa3a6cb6d6c565827d63e8c344a7a8755741"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/react-guzzle-http-client/zipball/2a18aa3a6cb6d6c565827d63e8c344a7a8755741",
+                "reference": "2a18aa3a6cb6d6c565827d63e8c344a7a8755741",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/psr7": "^1.0",
+                "php": "^5.4|^7.0",
+                "psr/http-message": "^1.0",
+                "react/dns": "^0.4.1",
+                "react/http-client": "^0.4"
+            },
+            "require-dev": {
+                "phake/phake": "~1.0.6",
+                "phpunit/phpunit": "^4.0|^5.0",
+                "squizlabs/php_codesniffer": "~1.5.0",
+                "vectorface/dunit": "~2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\React\\Guzzle\\HttpClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "http://wyrihaximus.net/"
+                }
+            ],
+            "description": "Asyncronous GuzzleRing adapter powered by react/http-client",
+            "time": "2015-11-03 17:37:13"
+        },
+        {
+            "name": "wyrihaximus/react-guzzle-ring",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/ReactGuzzleRing.git",
+                "reference": "2967e48438f6b4142e571e845e2ed8176aaa7ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/ReactGuzzleRing/zipball/2967e48438f6b4142e571e845e2ed8176aaa7ad0",
+                "reference": "2967e48438f6b4142e571e845e2ed8176aaa7ad0",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~5.0",
+                "guzzlehttp/psr7": "^1.1",
+                "guzzlehttp/ringphp": "~1.0",
+                "psr/http-message": "^1.0",
+                "react/dns": "^0.4.1",
+                "wyrihaximus/react-guzzle-http-client": "^3.0.0"
+            },
+            "require-dev": {
+                "phake/phake": "~1.0.6",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5.0",
+                "vectorface/dunit": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\React\\RingPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com",
+                    "homepage": "http://wyrihaximus.net/"
+                }
+            ],
+            "description": "Asyncronous GuzzleRing adapter powered by react/http-client",
+            "time": "2015-08-10 20:29:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "chrismou/phergie-irc-plugin-react-audioscrobbler": 20,
+        "chrismou/phergie-irc-plugin-react-dice": 20,
+        "chrismou/phergie-irc-plugin-react-google": 20,
+        "chrismou/phergie-irc-plugin-react-pingpong": 20,
+        "chrismou/phergie-irc-plugin-react-weather": 20,
+        "phergie/phergie-irc-plugin-react-tableflip": 20,
+        "pschwisow/phergie-irc-plugin-react-puppet": 20,
+        "pschwisow/phergie-irc-plugin-react-url-shorten": 20,
+        "renegade334/phergie-irc-plugin-react-ping": 20,
+        "shutterstock/phergie-irc-plugin-react-bigstock": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

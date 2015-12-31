@@ -1,0 +1,74 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-ping"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-bigstock"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-url-shorten"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-audioscrobbler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-google"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-weather"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-puppet"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-dice"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-pingpong"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-tableflip"
+        }
+    ],
+    "require": {
+        "chrismou/phergie-irc-plugin-react-audioscrobbler": "dev-phergie-version2",
+        "chrismou/phergie-irc-plugin-react-dice": "dev-version-2-updates",
+        "chrismou/phergie-irc-plugin-react-google": "dev-phergie-version2",
+        "chrismou/phergie-irc-plugin-react-pingpong": "dev-phergie-version2",
+        "chrismou/phergie-irc-plugin-react-weather": "dev-version2-updates",
+        "phergie/phergie-irc-plugin-react-tableflip": "dev-version-2-updates",
+        "laravel/envoy": "^1.0",
+        "phergie/phergie-irc-bot-react": "^2",
+        "phergie/phergie-irc-plugin-dns": "^4",
+        "phergie/phergie-irc-plugin-http": "^4",
+        "phergie/phergie-irc-plugin-react-autojoin": "^2",
+        "phergie/phergie-irc-plugin-react-bofh": "^3",
+        "phergie/phergie-irc-plugin-react-commandhelp": "^2",
+        "phergie/phergie-irc-plugin-react-daddy": "^2",
+        "phergie/phergie-irc-plugin-react-eventfilter": "^2",
+        "phergie/phergie-irc-plugin-react-joinpart": "^2",
+        "phergie/phergie-irc-plugin-react-magic-eight-ball": "^2",
+        "phergie/phergie-irc-plugin-react-nickserv": "^2",
+        "phergie/phergie-irc-plugin-react-quit": "^2",
+        "phergie/phergie-irc-plugin-react-url": "^3",
+        "phergie/phergie-irc-plugin-react-youtube": "^2",
+        "pschwisow/phergie-irc-plugin-react-puppet": "dev-phergie-version2",
+        "pschwisow/phergie-irc-plugin-react-url-shorten": "dev-version2-updates",
+        "renegade334/phergie-irc-plugin-react-ping": "dev-version2-updates",
+        "shutterstock/phergie-irc-plugin-react-bigstock": "dev-phergie-version-2",
+        "vlucas/phpdotenv": "^2.1"
+    }
+}
