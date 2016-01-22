@@ -64,6 +64,7 @@
         "phergie/phergie-irc-plugin-react-nickserv": "^2",
         "phergie/phergie-irc-plugin-react-quit": "^2",
         "phergie/phergie-irc-plugin-react-url": "^3",
+        "phergie/phergie-irc-plugin-react-usermode": "~2",
         "phergie/phergie-irc-plugin-react-youtube": "^2",
         "pschwisow/phergie-irc-plugin-react-puppet": "dev-phergie-version2",
         "pschwisow/phergie-irc-plugin-react-url-shorten": "dev-version2-updates",

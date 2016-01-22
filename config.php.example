@@ -13,6 +13,7 @@ use Phergie\Irc\Plugin\React\CommandHelp\Plugin as CommandHelpPlugin;
 use Phergie\Irc\Plugin\React\Daddy\Plugin as DaddyPlugin;
 use Phergie\Irc\Plugin\React\EventFilter\Plugin as EventFilterPlugin;
 use Phergie\Irc\Plugin\React\EventFilter\UserFilter;
+use Phergie\Irc\Plugin\React\EventFilter\UserModeFilter;
 use Phergie\Irc\Plugin\React\JoinPart\Plugin as JoinPartPlugin;
 use Phergie\Irc\Plugin\React\MagicEightBall\Plugin as MagicEightBallPlugin;
 use Phergie\Irc\Plugin\React\NickServ\Plugin as NickServPlugin;
@@ -21,6 +22,7 @@ use Phergie\Irc\Plugin\React\TableFlip\Plugin as TableFlipPlugin;
 use Phergie\Irc\Plugin\React\Url\DefaultUrlHandler;
 use Phergie\Irc\Plugin\React\Url\Mime as MimeHandlers;
 use Phergie\Irc\Plugin\React\Url\Plugin as UrlPlugin;
+use Phergie\Irc\Plugin\React\UserMode\Plugin as UserModePlugin;
 use Phergie\Irc\Plugin\React\YouTube\Plugin as YouTubePlugin;
 use Phergie\Plugin\Dns\Plugin as DnsPlugin;
 use Phergie\Plugin\Http\Plugin as HttpPlugin;
@@ -60,6 +62,8 @@ $joinpart = new JoinPartPlugin;
 $puppet = new PuppetPlugin;
 
 $table_flip = new TableFlipPlugin;
+
+$usermode = new UserModePlugin;
 
 $weather = new WeatherPlugin([
     'config' => [
@@ -118,6 +122,19 @@ return [
             'filter' => new UserFilter(['YOUR-NICK!*@*']), # CHANGE ME
         ]),
 
+        new EventFilterPlugin([
+            'plugins' => [
+                $joinpart,
+            ],
+            'filter' => new UserModeFilter(
+                // Pre-configured instance of \Phergie\Irc\Plugin\React\UserMode\Plugin
+                $usermode,
+                // List of letters corresponding to user modes for which to allow events
+                array('o', 'v')
+
+            )
+        ]),
+
         $google,
 
         new HttpPlugin,
@@ -137,6 +154,8 @@ return [
         ]),
 
         $table_flip,
+
+        $usermode,
 
         new UrlPlugin([
             'handler' => new DefaultUrlHandler(

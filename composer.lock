@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e41b93a071579bdbcc7ab02c62e88ac",
-    "content-hash": "7a2e2490e4ad53a0632db4c35746d701",
+    "hash": "5f35fa694709d47845201b41e7dcd942",
+    "content-hash": "76eb90840c4a1ebc4cbfc134b5f364ba",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -707,7 +707,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.2.0",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -749,16 +749,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.2.0",
+            "version": "v5.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "0b25fb20b0c75392b0b3848fe067275c51235e37"
+                "reference": "6d8dec02825299b0ad47712564e9d33104e148c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/0b25fb20b0c75392b0b3848fe067275c51235e37",
-                "reference": "0b25fb20b0c75392b0b3848fe067275c51235e37",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/6d8dec02825299b0ad47712564e9d33104e148c4",
+                "reference": "6d8dec02825299b0ad47712564e9d33104e148c4",
                 "shasum": ""
             },
             "require": {
@@ -801,20 +801,20 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-07 16:09:55"
+            "time": "2016-01-07 11:02:28"
         },
         {
             "name": "laravel/envoy",
-            "version": "v1.0.25",
+            "version": "v1.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/envoy.git",
-                "reference": "1cb822e6100daed96b3f359868aac0352499ac7f"
+                "reference": "444d6f6d1b2dd676f0737aaf4144ec344c79ec53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/envoy/zipball/1cb822e6100daed96b3f359868aac0352499ac7f",
-                "reference": "1cb822e6100daed96b3f359868aac0352499ac7f",
+                "url": "https://api.github.com/repos/laravel/envoy/zipball/444d6f6d1b2dd676f0737aaf4144ec344c79ec53",
+                "reference": "444d6f6d1b2dd676f0737aaf4144ec344c79ec53",
                 "shasum": ""
             },
             "require": {
@@ -822,6 +822,9 @@
                 "nategood/httpful": "~0.2",
                 "symfony/console": "~2.3",
                 "symfony/process": "~2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "bin": [
                 "envoy"
@@ -847,7 +850,7 @@
                 "laravel",
                 "ssh"
             ],
-            "time": "2015-07-17 01:07:53"
+            "time": "2016-01-06 23:27:02"
         },
         {
             "name": "monolog/monolog",
@@ -1392,16 +1395,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-http",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/plugin-http.git",
-                "reference": "6f44190806e0817c0fd1dfb06bf221903dddf7cc"
+                "reference": "b6ad183e193f25ef09119e3fc65057f5be23cffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/plugin-http/zipball/6f44190806e0817c0fd1dfb06bf221903dddf7cc",
-                "reference": "6f44190806e0817c0fd1dfb06bf221903dddf7cc",
+                "url": "https://api.github.com/repos/phergie/plugin-http/zipball/b6ad183e193f25ef09119e3fc65057f5be23cffd",
+                "reference": "b6ad183e193f25ef09119e3fc65057f5be23cffd",
                 "shasum": ""
             },
             "require": {
@@ -1438,7 +1441,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-29 12:41:31"
+            "time": "2016-01-13 14:24:19"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-autojoin",
@@ -2005,6 +2008,46 @@
                 "react"
             ],
             "time": "2015-12-31 14:42:09"
+        },
+        {
+            "name": "phergie/phergie-irc-plugin-react-usermode",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-usermode.git",
+                "reference": "ea27995fd030b73deafc1ecbf78a43f46cbd92b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-usermode/zipball/ea27995fd030b73deafc1ecbf78a43f46cbd92b2",
+                "reference": "ea27995fd030b73deafc1ecbf78a43f46cbd92b2",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~2"
+            },
+            "require-dev": {
+                "phake/phake": "2.0.0-beta2",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phergie\\Irc\\Plugin\\React\\UserMode\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Phergie plugin for monitoring and providing access to user mode information",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-12-22 03:20:20"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-youtube",
@@ -2727,16 +2770,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a"
+                "reference": "d0239fb42f98dd02e7d342f793c5d2cdee0c478d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
-                "reference": "2e06a5ccb19dcf9b89f1c6a677a39a8df773635a",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d0239fb42f98dd02e7d342f793c5d2cdee0c478d",
+                "reference": "d0239fb42f98dd02e7d342f793c5d2cdee0c478d",
                 "shasum": ""
             },
             "require": {
@@ -2783,7 +2826,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-22 10:25:57"
+            "time": "2016-01-14 08:33:16"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2846,16 +2889,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "62c254438b5040bc2217156e1570cf2206e8540c"
+                "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/62c254438b5040bc2217156e1570cf2206e8540c",
-                "reference": "62c254438b5040bc2217156e1570cf2206e8540c",
+                "url": "https://api.github.com/repos/symfony/process/zipball/6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
+                "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
                 "shasum": ""
             },
             "require": {
@@ -2891,7 +2934,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-12-23 11:03:46"
+            "time": "2016-01-06 09:59:23"
         },
         {
             "name": "vlucas/phpdotenv",
