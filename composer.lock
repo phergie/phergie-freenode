@@ -2051,16 +2051,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-youtube",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-youtube.git",
-                "reference": "dd52738ac628c7be5f0291186576e568832a58a7"
+                "reference": "e31aba9c823b72dec3c2c838ac20696ccba0c8f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-youtube/zipball/dd52738ac628c7be5f0291186576e568832a58a7",
-                "reference": "dd52738ac628c7be5f0291186576e568832a58a7",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-youtube/zipball/e31aba9c823b72dec3c2c838ac20696ccba0c8f1",
+                "reference": "e31aba9c823b72dec3c2c838ac20696ccba0c8f1",
                 "shasum": ""
             },
             "require": {
@@ -2090,7 +2090,7 @@
                 "phergie",
                 "plugin"
             ],
-            "time": "2015-12-31 15:32:50"
+            "time": "2016-02-10 01:19:24"
         },
         {
             "name": "pschwisow/phergie-irc-plugin-react-puppet",
