@@ -2011,16 +2011,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-usermode",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-usermode.git",
-                "reference": "ea27995fd030b73deafc1ecbf78a43f46cbd92b2"
+                "reference": "47d8d0c47bafb59756f14455a301d1e2a5375c89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-usermode/zipball/ea27995fd030b73deafc1ecbf78a43f46cbd92b2",
-                "reference": "ea27995fd030b73deafc1ecbf78a43f46cbd92b2",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-usermode/zipball/47d8d0c47bafb59756f14455a301d1e2a5375c89",
+                "reference": "47d8d0c47bafb59756f14455a301d1e2a5375c89",
                 "shasum": ""
             },
             "require": {
@@ -2047,7 +2047,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-22 03:20:20"
+            "time": "2016-03-13 17:39:24"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-youtube",
@@ -2897,7 +2897,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d9d21cfcc3e202ee34777d6da38897695d4d208d",
                 "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
                 "shasum": ""
             },
