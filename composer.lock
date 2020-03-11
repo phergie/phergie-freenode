@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "5f35fa694709d47845201b41e7dcd942",
     "content-hash": "76eb90840c4a1ebc4cbfc134b5f364ba",
     "packages": [
         {
@@ -81,7 +80,7 @@
                 "issues": "https://github.com/chrismou/phergie-irc-plugin-react-audioscrobbler/issues",
                 "source": "https://github.com/chrismou/phergie-irc-plugin-react-audioscrobbler"
             },
-            "time": "2015-12-31 15:04:44"
+            "time": "2015-12-31T15:04:44+00:00"
         },
         {
             "name": "chrismou/phergie-irc-plugin-react-dice",
@@ -152,7 +151,7 @@
                 "issues": "https://github.com/chrismou/phergie-irc-plugin-react-dice/issues",
                 "source": "https://github.com/chrismou/phergie-irc-plugin-react-dice"
             },
-            "time": "2015-12-31 15:47:14"
+            "time": "2015-12-31T15:47:14+00:00"
         },
         {
             "name": "chrismou/phergie-irc-plugin-react-google",
@@ -226,7 +225,7 @@
                 "issues": "https://github.com/chrismou/phergie-irc-plugin-react-google/issues",
                 "source": "https://github.com/chrismou/phergie-irc-plugin-react-google"
             },
-            "time": "2015-12-31 15:13:10"
+            "time": "2015-12-31T15:13:10+00:00"
         },
         {
             "name": "chrismou/phergie-irc-plugin-react-pingpong",
@@ -298,7 +297,7 @@
                 "issues": "https://github.com/chrismou/phergie-irc-plugin-react-pingpong/issues",
                 "source": "https://github.com/chrismou/phergie-irc-plugin-react-pingpong"
             },
-            "time": "2015-12-31 15:53:38"
+            "time": "2015-12-31T15:53:38+00:00"
         },
         {
             "name": "chrismou/phergie-irc-plugin-react-weather",
@@ -373,37 +372,37 @@
                 "issues": "https://github.com/chrismou/phergie-irc-plugin-react-weather/issues",
                 "source": "https://github.com/chrismou/phergie-irc-plugin-react-weather"
             },
-            "time": "2015-12-31 15:18:06"
+            "time": "2015-12-31T15:18:06+00:00"
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.1.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+                "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*"
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Inflector\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -412,16 +411,16 @@
             ],
             "authors": [
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
                     "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Jonathan Wage",
@@ -440,31 +439,29 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2019-10-30T19:59:35+00:00"
         },
         {
             "name": "evenement/evenement",
-            "version": "v2.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement.git",
-                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e"
+                "reference": "531bfb9d15f8aa57454f5f0285b18bec903b8fb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
-                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/531bfb9d15f8aa57454f5f0285b18bec903b8fb7",
+                "reference": "531bfb9d15f8aa57454f5f0285b18bec903b8fb7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Evenement": "src"
@@ -477,8 +474,7 @@
             "authors": [
                 {
                     "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch",
-                    "homepage": "http://wiedler.ch/igor/"
+                    "email": "igor@wiedler.ch"
                 }
             ],
             "description": "Événement is a very simple event dispatching library for PHP",
@@ -486,37 +482,77 @@
                 "event-dispatcher",
                 "event-emitter"
             ],
-            "time": "2012-11-02 14:49:47"
+            "time": "2017-07-23T21:35:13+00:00"
         },
         {
-            "name": "guzzlehttp/guzzle",
-            "version": "5.3.0",
+            "name": "guzzle/parser",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Parser",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "f3c8c22471cb55475105c14769644a49c3262b93"
+                "url": "https://github.com/Guzzle3/parser.git",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f3c8c22471cb55475105c14769644a49c3262b93",
-                "reference": "f3c8c22471cb55475105c14769644a49c3262b93",
+                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/6874d171318a8e93eb6d224cf85e4678490b625c",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/ringphp": "^1.1",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "ext-curl": "*",
-                "phpunit/phpunit": "^4.0",
-                "psr/log": "^1.0"
+                "php": ">=5.3.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "3.7-dev"
                 }
             },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Parser": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Interchangeable parsers used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "URI Template",
+                "cookie",
+                "http",
+                "message",
+                "url"
+            ],
+            "abandoned": "guzzle/guzzle",
+            "time": "2014-02-05T18:29:46+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "5.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "b87eda7a7162f95574032da17e9323c9899cb6b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b87eda7a7162f95574032da17e9323c9899cb6b2",
+                "reference": "b87eda7a7162f95574032da17e9323c9899cb6b2",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/ringphp": "^1.1",
+                "php": ">=5.4.0",
+                "react/promise": "^2.2"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "GuzzleHttp\\": "src/"
@@ -544,36 +580,41 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-05-20 03:47:55"
+            "time": "2019-10-30T09:32:00+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.2.1",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982"
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/4d0bdbe1206df7440219ce14c972aa57cc5e4982",
-                "reference": "4d0bdbe1206df7440219ce14c972aa57cc5e4982",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -593,29 +634,37 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
-            "description": "PSR-7 message implementation",
+            "description": "PSR-7 message implementation that also provides common utility methods",
             "keywords": [
                 "http",
                 "message",
+                "psr-7",
+                "request",
+                "response",
                 "stream",
-                "uri"
+                "uri",
+                "url"
             ],
-            "time": "2015-11-03 01:34:55"
+            "time": "2019-07-01T23:21:34+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
+                "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
-                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/5e2a174052995663dd68e6b5ad838afd47dd615b",
+                "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b",
                 "shasum": ""
             },
             "require": {
@@ -653,7 +702,8 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-20 03:37:09"
+            "abandoned": true,
+            "time": "2018-07-31T13:22:33+00:00"
         },
         {
             "name": "guzzlehttp/streams",
@@ -703,29 +753,32 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-10-12 19:18:40"
+            "abandoned": true,
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.2.7",
+            "version": "v6.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "51b3acf96a12f5a10d767d5f2a534fed6f304235"
+                "reference": "e08ea83602d96cdfd7106a15f07878935c1a7675"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/51b3acf96a12f5a10d767d5f2a534fed6f304235",
-                "reference": "51b3acf96a12f5a10d767d5f2a534fed6f304235",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/e08ea83602d96cdfd7106a15f07878935c1a7675",
+                "reference": "e08ea83602d96cdfd7106a15f07878935c1a7675",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": "^7.2",
+                "psr/container": "^1.0",
+                "psr/simple-cache": "^1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "6.x-dev"
                 }
             },
             "autoload": {
@@ -740,45 +793,50 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Illuminate Contracts package.",
-            "homepage": "http://laravel.com",
-            "time": "2015-12-19 14:25:38"
+            "homepage": "https://laravel.com",
+            "time": "2020-02-27T19:49:00+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.2.7",
+            "version": "v6.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "6d8dec02825299b0ad47712564e9d33104e148c4"
+                "reference": "844b15a40489cf74d660548d60d28e51d5966f22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/6d8dec02825299b0ad47712564e9d33104e148c4",
-                "reference": "6d8dec02825299b0ad47712564e9d33104e148c4",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/844b15a40489cf74d660548d60d28e51d5966f22",
+                "reference": "844b15a40489cf74d660548d60d28e51d5966f22",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "~1.0",
+                "doctrine/inflector": "^1.1",
+                "ext-json": "*",
                 "ext-mbstring": "*",
-                "illuminate/contracts": "5.2.*",
-                "php": ">=5.5.9"
+                "illuminate/contracts": "^6.0",
+                "nesbot/carbon": "^2.0",
+                "php": "^7.2"
+            },
+            "conflict": {
+                "tightenco/collect": "<5.5.33"
             },
             "suggest": {
-                "illuminate/filesystem": "Required to use the composer class (5.2.*).",
-                "jeremeamia/superclosure": "Required to be able to serialize closures (~2.2).",
-                "paragonie/random_compat": "Provides a compatible interface like PHP7's random_bytes() in PHP 5 projects (~1.1).",
-                "symfony/polyfill-php56": "Required to use the hash_equals function on PHP 5.5 (~1.0).",
-                "symfony/process": "Required to use the composer class (2.8.*|3.0.*).",
-                "symfony/var-dumper": "Improves the dd function (2.8.*|3.0.*)."
+                "illuminate/filesystem": "Required to use the composer class (^6.0).",
+                "moontoast/math": "Required to use ordered UUIDs (^1.1).",
+                "ramsey/uuid": "Required to use Str::uuid() (^3.7).",
+                "symfony/process": "Required to use the composer class (^4.3.4).",
+                "symfony/var-dumper": "Required to use the dd function (^4.3.4).",
+                "vlucas/phpdotenv": "Required to use the Env class and env helper (^3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "6.x-dev"
                 }
             },
             "autoload": {
@@ -796,44 +854,49 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Illuminate Support package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-01-07 11:02:28"
+            "homepage": "https://laravel.com",
+            "time": "2020-02-28T14:15:59+00:00"
         },
         {
             "name": "laravel/envoy",
-            "version": "v1.0.26",
+            "version": "v1.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/envoy.git",
-                "reference": "444d6f6d1b2dd676f0737aaf4144ec344c79ec53"
+                "reference": "45fc4c3ebf070437b7367e5294314d618c3201fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/envoy/zipball/444d6f6d1b2dd676f0737aaf4144ec344c79ec53",
-                "reference": "444d6f6d1b2dd676f0737aaf4144ec344c79ec53",
+                "url": "https://api.github.com/repos/laravel/envoy/zipball/45fc4c3ebf070437b7367e5294314d618c3201fd",
+                "reference": "45fc4c3ebf070437b7367e5294314d618c3201fd",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~4.1|~5.0",
+                "illuminate/support": "~4.1 || ~5.0 || ^6.0",
                 "nategood/httpful": "~0.2",
-                "symfony/console": "~2.3",
-                "symfony/process": "~2.3"
+                "symfony/console": "~3.0 || ~4.0 || ^5.0",
+                "symfony/process": "~3.0 || ~4.0 || ^5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "^7.0"
             },
             "bin": [
-                "envoy"
+                "bin/envoy"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
-                "classmap": [
-                    "src"
-                ]
+                "psr-4": {
+                    "Laravel\\Envoy\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -842,7 +905,7 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "Elegant SSH tasks for PHP.",
@@ -850,20 +913,20 @@
                 "laravel",
                 "ssh"
             ],
-            "time": "2016-01-06 23:27:02"
+            "time": "2020-02-18T19:21:34+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "1.25.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fa82921994db851a8becaf3787a9e73c5976b6f1",
+                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1",
                 "shasum": ""
             },
             "require": {
@@ -874,17 +937,17 @@
                 "psr/log-implementation": "1.0.0"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9",
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
                 "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
                 "phpunit/phpunit": "~4.5",
                 "phpunit/phpunit-mock-objects": "2.3.0",
-                "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
-                "swiftmailer/swiftmailer": "~5.3",
-                "videlalvaro/php-amqplib": "~2.4"
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -892,16 +955,17 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
-                "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "videlalvaro/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib"
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -927,25 +991,25 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2019-12-20T14:15:16+00:00"
         },
         {
             "name": "nategood/httpful",
-            "version": "0.2.20",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nategood/httpful.git",
-                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
-                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "php": ">=5.3"
+                "php": ">=7.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "*"
@@ -977,7 +1041,77 @@
                 "rest",
                 "restful"
             ],
-            "time": "2015-10-26 16:11:30"
+            "time": "2020-01-25T01:13:13+00:00"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "2.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "bbc0ab53f41a4c6f223c18efcdbd9bc725eb5d2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bbc0ab53f41a4c6f223c18efcdbd9bc725eb5d2d",
+                "reference": "bbc0ab53f41a4c6f223c18efcdbd9bc725eb5d2d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1.8 || ^8.0",
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
+                "kylekatarnls/multi-tester": "^1.1",
+                "phpmd/phpmd": "^2.8",
+                "phpstan/phpstan": "^0.11",
+                "phpunit/phpunit": "^7.5 || ^8.0",
+                "squizlabs/php_codesniffer": "^3.4"
+            },
+            "bin": [
+                "bin/carbon"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Carbon\\Laravel\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Carbon\\": "src/Carbon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Nesbitt",
+                    "email": "brian@nesbot.com",
+                    "homepage": "http://nesbot.com"
+                },
+                {
+                    "name": "kylekatarnls",
+                    "homepage": "http://github.com/kylekatarnls"
+                }
+            ],
+            "description": "An API extension for DateTime that supports 281 different languages.",
+            "homepage": "http://carbon.nesbot.com",
+            "keywords": [
+                "date",
+                "datetime",
+                "time"
+            ],
+            "time": "2020-03-01T11:11:58+00:00"
         },
         {
             "name": "nojimage/twitter-text-php",
@@ -1040,7 +1174,7 @@
                 "text",
                 "twitter"
             ],
-            "time": "2014-02-28 15:18:45"
+            "time": "2014-02-28T15:18:45+00:00"
         },
         {
             "name": "openlss/func-time",
@@ -1089,31 +1223,32 @@
                 "hours ago",
                 "time"
             ],
-            "time": "2013-03-27 03:34:55"
+            "time": "2013-03-27T03:34:55+00:00"
         },
         {
             "name": "phergie/phergie-irc-bot-react",
-            "version": "2.0.0",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-bot-react.git",
-                "reference": "d8587c51144dffe45dc925d87740a7f1e0ea23d4"
+                "reference": "17745ef6b846513258af3dbd86e5612d3deb19b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-bot-react/zipball/d8587c51144dffe45dc925d87740a7f1e0ea23d4",
-                "reference": "d8587c51144dffe45dc925d87740a7f1e0ea23d4",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-bot-react/zipball/17745ef6b846513258af3dbd86e5612d3deb19b7",
+                "reference": "17745ef6b846513258af3dbd86e5612d3deb19b7",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "~2.0",
+                "evenement/evenement": "^3.0 || ^2.0",
                 "monolog/monolog": "~1.6",
-                "phergie/phergie-irc-client-react": "~3",
+                "phergie/phergie-irc-client-react": "~3.1",
                 "phergie/phergie-irc-connection": "~2.0",
                 "phergie/phergie-irc-event": "~1.0",
-                "php": ">=5.5"
+                "php": ">=5.6.0"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.0",
                 "phergie/phergie-irc-bot-react-development": "~1.0"
             },
             "bin": [
@@ -1135,20 +1270,20 @@
                 "irc",
                 "react"
             ],
-            "time": "2015-12-21 21:17:58"
+            "time": "2018-12-19T15:47:17+00:00"
         },
         {
             "name": "phergie/phergie-irc-client-react",
-            "version": "3.0.0",
+            "version": "3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-client-react.git",
-                "reference": "55efba19c7a48764d4b997d5e9d473e0f75db232"
+                "reference": "2ed4602c29c63ac0b9a1d4c42292c52a6c2f79f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-client-react/zipball/55efba19c7a48764d4b997d5e9d473e0f75db232",
-                "reference": "55efba19c7a48764d4b997d5e9d473e0f75db232",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-client-react/zipball/2ed4602c29c63ac0b9a1d4c42292c52a6c2f79f1",
+                "reference": "2ed4602c29c63ac0b9a1d4c42292c52a6c2f79f1",
                 "shasum": ""
             },
             "require": {
@@ -1159,10 +1294,10 @@
                 "php": ">=5.5",
                 "psr/log": "~1.0",
                 "react/dns": "~0.4.0",
-                "react/event-loop": "~0.4.0",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4.0",
                 "react/promise": "~2.0",
-                "react/socket-client": "~0.4.2",
-                "react/stream": "~0.4.2"
+                "react/socket": "^1.0 || ^0.8 || ^0.7",
+                "react/stream": "^1.0 || ^0.7 || ^0.6 || ^0.5 || ^0.4"
             },
             "conflict": {
                 "phergie/phergie-irc-plugin-react-pong": "*"
@@ -1186,7 +1321,7 @@
                 "irc",
                 "react"
             ],
-            "time": "2015-12-14 23:56:41"
+            "time": "2017-11-01T14:45:46+00:00"
         },
         {
             "name": "phergie/phergie-irc-connection",
@@ -1225,7 +1360,7 @@
                 "irc",
                 "server"
             ],
-            "time": "2015-05-26 15:14:31"
+            "time": "2015-05-26T15:14:31+00:00"
         },
         {
             "name": "phergie/phergie-irc-event",
@@ -1264,7 +1399,7 @@
                 "event",
                 "irc"
             ],
-            "time": "2015-06-09 17:45:15"
+            "time": "2015-06-09T17:45:15+00:00"
         },
         {
             "name": "phergie/phergie-irc-generator",
@@ -1301,24 +1436,24 @@
                 "generator",
                 "irc"
             ],
-            "time": "2015-07-16 16:26:11"
+            "time": "2015-07-16T16:26:11+00:00"
         },
         {
             "name": "phergie/phergie-irc-parser",
-            "version": "2.2.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-parser.git",
-                "reference": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce"
+                "reference": "44681f3750d539744646e7f064484ab3f1736053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-parser/zipball/cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
-                "reference": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-parser/zipball/44681f3750d539744646e7f064484ab3f1736053",
+                "reference": "44681f3750d539744646e7f064484ab3f1736053",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": "^7.0 || ^5.6"
             },
             "require-dev": {
                 "phergie/phergie-irc-bot-react-development": "~1.0.0"
@@ -1338,7 +1473,7 @@
                 "irc",
                 "parser"
             ],
-            "time": "2015-11-12 15:21:51"
+            "time": "2018-10-16T12:33:45+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-dns",
@@ -1391,26 +1526,26 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-28 23:49:13"
+            "time": "2015-12-28T23:49:13+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-http",
-            "version": "4.0.1",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/plugin-http.git",
-                "reference": "b6ad183e193f25ef09119e3fc65057f5be23cffd"
+                "reference": "98c76ca1933029c6f4023634556db496568e5e37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/plugin-http/zipball/b6ad183e193f25ef09119e3fc65057f5be23cffd",
-                "reference": "b6ad183e193f25ef09119e3fc65057f5be23cffd",
+                "url": "https://api.github.com/repos/phergie/plugin-http/zipball/98c76ca1933029c6f4023634556db496568e5e37",
+                "reference": "98c76ca1933029c6f4023634556db496568e5e37",
                 "shasum": ""
             },
             "require": {
                 "phergie/phergie-irc-bot-react": "~2.0",
                 "phergie/phergie-irc-plugin-dns": "^4.0",
-                "php": "^5.5||^7.0",
+                "php": "^7.0||^5.6",
                 "wyrihaximus/react-guzzle-ring": "^1.0"
             },
             "require-dev": {
@@ -1441,7 +1576,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2016-01-13 14:24:19"
+            "time": "2017-01-21T11:54:11+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-autojoin",
@@ -1483,20 +1618,20 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-21 23:43:28"
+            "time": "2015-12-21T23:43:28+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-bofh",
-            "version": "3.0.0",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-bofh.git",
-                "reference": "694c744ade50a4a4e9b5e5e7bae99ca620fcaeee"
+                "reference": "742f0d0b1e6f5cf91a3fd0c0995c5040bce086f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-bofh/zipball/694c744ade50a4a4e9b5e5e7bae99ca620fcaeee",
-                "reference": "694c744ade50a4a4e9b5e5e7bae99ca620fcaeee",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-bofh/zipball/742f0d0b1e6f5cf91a3fd0c0995c5040bce086f1",
+                "reference": "742f0d0b1e6f5cf91a3fd0c0995c5040bce086f1",
                 "shasum": ""
             },
             "require": {
@@ -1540,7 +1675,7 @@
                 "phergie",
                 "plugin"
             ],
-            "time": "2015-12-31 14:48:47"
+            "time": "2016-04-25T22:36:51+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-command",
@@ -1580,20 +1715,20 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-21 22:30:19"
+            "time": "2015-12-21T22:30:19+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-commandhelp",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-commandhelp.git",
-                "reference": "b7851c52e461967f46d81f4ebe4c484e0b70508d"
+                "reference": "24197ba741b8122ff1b0c0e441117fef92bd3100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-commandhelp/zipball/b7851c52e461967f46d81f4ebe4c484e0b70508d",
-                "reference": "b7851c52e461967f46d81f4ebe4c484e0b70508d",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-commandhelp/zipball/24197ba741b8122ff1b0c0e441117fef92bd3100",
+                "reference": "24197ba741b8122ff1b0c0e441117fef92bd3100",
                 "shasum": ""
             },
             "require": {
@@ -1601,8 +1736,8 @@
                 "phergie/phergie-irc-plugin-react-command": "~2"
             },
             "require-dev": {
-                "phake/phake": "2.0.0-beta2",
-                "phpunit/phpunit": "4.1.*"
+                "phake/phake": "@stable",
+                "phpunit/phpunit": "4.5.*"
             },
             "type": "library",
             "autoload": {
@@ -1621,7 +1756,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-21 22:40:49"
+            "time": "2016-04-25T23:29:01+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-daddy",
@@ -1671,20 +1806,20 @@
                 "irc",
                 "phergie"
             ],
-            "time": "2015-12-21 22:59:21"
+            "time": "2015-12-21T22:59:21+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-eventfilter",
-            "version": "2.0.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-eventfilter.git",
-                "reference": "d5c4024034f466e510572927cac8956c10c1cac5"
+                "reference": "300fa75cf77775811429b37d83d9f1768c94f9f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-eventfilter/zipball/d5c4024034f466e510572927cac8956c10c1cac5",
-                "reference": "d5c4024034f466e510572927cac8956c10c1cac5",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-eventfilter/zipball/300fa75cf77775811429b37d83d9f1768c94f9f8",
+                "reference": "300fa75cf77775811429b37d83d9f1768c94f9f8",
                 "shasum": ""
             },
             "require": {
@@ -1715,7 +1850,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-22 03:29:44"
+            "time": "2018-09-08T01:24:46+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-joinpart",
@@ -1759,7 +1894,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-22 04:09:32"
+            "time": "2015-12-22T04:09:32+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-magic-eight-ball",
@@ -1801,20 +1936,20 @@
                 "phergie",
                 "plugin"
             ],
-            "time": "2015-12-22 07:59:16"
+            "time": "2015-12-22T07:59:16+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-nickserv",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-nickserv.git",
-                "reference": "bbabfeb90cf3657c147d0be22f03a910eb8891ad"
+                "reference": "0319c79314029bd1ebab0de04a67ff20705e36da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-nickserv/zipball/bbabfeb90cf3657c147d0be22f03a910eb8891ad",
-                "reference": "bbabfeb90cf3657c147d0be22f03a910eb8891ad",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-nickserv/zipball/0319c79314029bd1ebab0de04a67ff20705e36da",
+                "reference": "0319c79314029bd1ebab0de04a67ff20705e36da",
                 "shasum": ""
             },
             "require": {
@@ -1844,7 +1979,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-22 03:58:34"
+            "time": "2018-10-27T14:15:33+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-quit",
@@ -1888,7 +2023,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-22 03:48:58"
+            "time": "2015-12-22T03:48:58+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-tableflip",
@@ -1955,26 +2090,27 @@
                 "issues": "https://github.com/elstamey/phergie-irc-plugin-react-tableflip/issues",
                 "source": "https://github.com/elstamey/phergie-irc-plugin-react-tableflip"
             },
-            "time": "2015-12-21 23:33:52"
+            "time": "2015-12-21T23:33:52+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-url",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-url.git",
-                "reference": "86626c6e771253252fae157483174f3b1718a907"
+                "reference": "3c9f9affb63c22a61984fc182991aeb8e46b9b81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-url/zipball/86626c6e771253252fae157483174f3b1718a907",
-                "reference": "86626c6e771253252fae157483174f3b1718a907",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-url/zipball/3c9f9affb63c22a61984fc182991aeb8e46b9b81",
+                "reference": "3c9f9affb63c22a61984fc182991aeb8e46b9b81",
                 "shasum": ""
             },
             "require": {
                 "nojimage/twitter-text-php": "1.1.1",
                 "phergie/phergie-irc-bot-react": "~2",
-                "phergie/phergie-irc-plugin-http": "^4",
+                "phergie/phergie-irc-plugin-http": "^4.0",
+                "phergie/phergie-irc-plugin-react-eventfilter": "^1.0||^2.0",
                 "php": "^5.5|^7.0",
                 "react/promise": "~1.0|~2.0"
             },
@@ -2007,7 +2143,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-31 14:42:09"
+            "time": "2016-01-25T18:46:43+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-usermode",
@@ -2047,7 +2183,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2016-03-13 17:39:24"
+            "time": "2016-03-13T17:39:24+00:00"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-youtube",
@@ -2090,7 +2226,7 @@
                 "phergie",
                 "plugin"
             ],
-            "time": "2016-02-10 01:19:24"
+            "time": "2016-02-10T01:19:24+00:00"
         },
         {
             "name": "pschwisow/phergie-irc-plugin-react-puppet",
@@ -2146,7 +2282,7 @@
                 "issues": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet/issues",
                 "source": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet"
             },
-            "time": "2015-12-31 15:41:28"
+            "time": "2015-12-31T15:41:28+00:00"
         },
         {
             "name": "pschwisow/phergie-irc-plugin-react-url-shorten",
@@ -2198,20 +2334,69 @@
                 "issues": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten/issues",
                 "source": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten"
             },
-            "time": "2015-12-31 14:57:29"
+            "time": "2015-12-31T14:57:29+00:00"
         },
         {
-            "name": "psr/http-message",
-            "version": "1.0",
+            "name": "psr/container",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-fig/http-message.git",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
@@ -2239,6 +2424,7 @@
                 }
             ],
             "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
             "keywords": [
                 "http",
                 "http-message",
@@ -2247,26 +2433,34 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
-            "version": "1.0.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2280,110 +2474,206 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2019-11-01T11:05:21+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "react/cache",
-            "version": "v0.4.0",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/cache.git",
-                "reference": "9882ab5d8b00617baae83c6996f5a34668c11beb"
+                "reference": "aa10d63a1b40a36a486bdf527f28bac607ee6466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/cache/zipball/9882ab5d8b00617baae83c6996f5a34668c11beb",
-                "reference": "9882ab5d8b00617baae83c6996f5a34668c11beb",
+                "url": "https://api.github.com/repos/reactphp/cache/zipball/aa10d63a1b40a36a486bdf527f28bac607ee6466",
+                "reference": "aa10d63a1b40a36a486bdf527f28bac607ee6466",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "react/promise": "~2.0"
+                "php": ">=5.3.0",
+                "react/promise": "~2.0|~1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.4-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "React\\Cache\\": ""
+                    "React\\Cache\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "Async caching.",
+            "description": "Async, Promise-based cache interface for ReactPHP",
             "keywords": [
-                "cache"
+                "cache",
+                "caching",
+                "promise",
+                "reactphp"
             ],
-            "time": "2014-02-02 01:11:26"
+            "time": "2019-07-11T13:45:28+00:00"
         },
         {
             "name": "react/dns",
-            "version": "v0.4.1",
+            "version": "v0.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "8c5ccc35dcb4b06b70eb9201842363fac7b0f3cf"
+                "reference": "6852fb98e22d2e5bb35fe5aeeaa96551b120e7c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/8c5ccc35dcb4b06b70eb9201842363fac7b0f3cf",
-                "reference": "8c5ccc35dcb4b06b70eb9201842363fac7b0f3cf",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/6852fb98e22d2e5bb35fe5aeeaa96551b120e7c9",
+                "reference": "6852fb98e22d2e5bb35fe5aeeaa96551b120e7c9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "react/cache": "0.4.*",
-                "react/promise": "~2.0",
-                "react/socket": "0.4.*"
+                "php": ">=5.3.0",
+                "react/cache": "^1.0 || ^0.6 || ^0.5",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+                "react/promise": "^2.1 || ^1.2.1",
+                "react/promise-timer": "^1.2",
+                "react/stream": "^1.0 || ^0.7 || ^0.6 || ^0.5 || ^0.4.5"
+            },
+            "require-dev": {
+                "clue/block-react": "^1.2",
+                "phpunit/phpunit": "^7.0 || ^6.4 || ^5.7 || ^4.8.35"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.4-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "React\\Dns\\": ""
+                    "React\\Dns\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "Async DNS resolver.",
+            "description": "Async DNS resolver for ReactPHP",
             "keywords": [
+                "async",
                 "dns",
-                "dns-resolver"
+                "dns-resolver",
+                "reactphp"
             ],
-            "time": "2014-04-12 14:09:10"
+            "time": "2019-07-10T21:00:53+00:00"
         },
         {
             "name": "react/event-loop",
-            "version": "v0.4.1",
+            "version": "v0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+                "reference": "8bde03488ee897dc6bb3d91e4e17c353f9c5252f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/8bde03488ee897dc6bb3d91e4e17c353f9c5252f",
+                "reference": "8bde03488ee897dc6bb3d91e4e17c353f9c5252f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-event": "~1.0",
@@ -2391,14 +2681,9 @@
                 "ext-libevent": ">=0.1.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.4-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "React\\EventLoop\\": ""
+                    "React\\EventLoop\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2407,43 +2692,40 @@
             ],
             "description": "Event loop abstraction layer that libraries can use for evented I/O.",
             "keywords": [
+                "asynchronous",
                 "event-loop"
             ],
-            "time": "2014-02-26 17:36:58"
+            "time": "2017-04-27T10:56:23+00:00"
         },
         {
             "name": "react/http-client",
-            "version": "v0.4.8",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/http-client.git",
-                "reference": "74ad2f36e6c70eb5191e8100f5dd7d70e9480c2d"
+                "reference": "a0becdbdb6929b45a1d504f0e069bbc5b6d1c61c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/http-client/zipball/74ad2f36e6c70eb5191e8100f5dd7d70e9480c2d",
-                "reference": "74ad2f36e6c70eb5191e8100f5dd7d70e9480c2d",
+                "url": "https://api.github.com/repos/reactphp/http-client/zipball/a0becdbdb6929b45a1d504f0e069bbc5b6d1c61c",
+                "reference": "a0becdbdb6929b45a1d504f0e069bbc5b6d1c61c",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "~2.0",
-                "guzzlehttp/psr7": "^1.0",
+                "guzzle/parser": "~3.0",
                 "php": ">=5.4.0",
                 "react/dns": "0.4.*",
-                "react/event-loop": "0.4.*",
-                "react/promise": "~2.2",
-                "react/socket-client": "0.4.*",
-                "react/stream": "0.4.*"
+                "react/socket-client": "0.4.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5-dev"
+                    "dev-master": "0.4-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\HttpClient\\": "src"
+                    "React\\HttpClient\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2454,31 +2736,29 @@
             "keywords": [
                 "http"
             ],
-            "time": "2015-10-05 19:13:01"
+            "time": "2014-02-02T01:11:26+00:00"
         },
         {
             "name": "react/promise",
-            "version": "v2.2.1",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise.git",
-                "reference": "3b6fca09c7d56321057fa8867c8dbe1abf648627"
+                "reference": "31ffa96f8d2ed0341a57848cbb84d88b89dd664d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise/zipball/3b6fca09c7d56321057fa8867c8dbe1abf648627",
-                "reference": "3b6fca09c7d56321057fa8867c8dbe1abf648627",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/31ffa96f8d2ed0341a57848cbb84d88b89dd664d",
+                "reference": "31ffa96f8d2ed0341a57848cbb84d88b89dd664d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "React\\Promise\\": "src/"
@@ -2498,34 +2778,93 @@
                 }
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
-            "time": "2015-07-03 13:48:55"
+            "keywords": [
+                "promise",
+                "promises"
+            ],
+            "time": "2019-01-07T21:25:54+00:00"
         },
         {
-            "name": "react/socket",
-            "version": "v0.4.2",
+            "name": "react/promise-timer",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/reactphp/socket.git",
-                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc"
+                "url": "https://github.com/reactphp/promise-timer.git",
+                "reference": "35fb910604fd86b00023fc5cda477c8074ad0abc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
-                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
+                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/35fb910604fd86b00023fc5cda477c8074ad0abc",
+                "reference": "35fb910604fd86b00023fc5cda477c8074ad0abc",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "~2.0",
-                "php": ">=5.4.0",
-                "react/event-loop": "0.4.*",
-                "react/stream": "0.4.*"
+                "php": ">=5.3",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+                "react/promise": "^2.7.0 || ^1.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.4-dev"
-                }
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\Timer\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
             },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@lueck.tv"
+                }
+            ],
+            "description": "A trivial implementation of timeouts for Promises, built on top of ReactPHP.",
+            "homepage": "https://github.com/reactphp/promise-timer",
+            "keywords": [
+                "async",
+                "event-loop",
+                "promise",
+                "reactphp",
+                "timeout",
+                "timer"
+            ],
+            "time": "2019-03-27T18:10:32+00:00"
+        },
+        {
+            "name": "react/socket",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/socket.git",
+                "reference": "10f0629ec83ea0fa22597f348623f554227e3ca0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/10f0629ec83ea0fa22597f348623f554227e3ca0",
+                "reference": "10f0629ec83ea0fa22597f348623f554227e3ca0",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.0",
+                "react/dns": "^1.0 || ^0.4.13",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+                "react/promise": "^2.6.0 || ^1.2.1",
+                "react/promise-timer": "^1.4.0",
+                "react/stream": "^1.1"
+            },
+            "require-dev": {
+                "clue/block-react": "^1.2",
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
+            },
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "React\\Socket\\": "src"
@@ -2535,32 +2874,35 @@
             "license": [
                 "MIT"
             ],
-            "description": "Library for building an evented socket server.",
+            "description": "Async, streaming plaintext TCP/IP and secure TLS socket server and client connections for ReactPHP",
             "keywords": [
-                "Socket"
+                "Connection",
+                "Socket",
+                "async",
+                "reactphp",
+                "stream"
             ],
-            "time": "2014-05-25 17:02:16"
+            "time": "2019-07-10T10:11:14+00:00"
         },
         {
             "name": "react/socket-client",
-            "version": "v0.4.4",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket-client.git",
-                "reference": "3ca814d7e03e2a5bffeaa5773423107957a8aece"
+                "reference": "6ec8c3aefc018acec763fa6e950e1baa947231fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket-client/zipball/3ca814d7e03e2a5bffeaa5773423107957a8aece",
-                "reference": "3ca814d7e03e2a5bffeaa5773423107957a8aece",
+                "url": "https://api.github.com/repos/reactphp/socket-client/zipball/6ec8c3aefc018acec763fa6e950e1baa947231fc",
+                "reference": "6ec8c3aefc018acec763fa6e950e1baa947231fc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "react/dns": "0.4.*",
                 "react/event-loop": "0.4.*",
-                "react/promise": "~2.0",
-                "react/stream": "0.4.*"
+                "react/promise": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -2570,7 +2912,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "React\\SocketClient\\": "src"
+                    "React\\SocketClient\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2581,40 +2923,33 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2015-09-23 22:40:04"
+            "abandoned": "react/socket",
+            "time": "2014-02-02T01:11:26+00:00"
         },
         {
             "name": "react/stream",
-            "version": "v0.4.3",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "305b2328d2a2e157bc13b61a0f5c6e41b666b188"
+                "reference": "50426855f7a77ddf43b9266c22320df5bf6c6ce6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/305b2328d2a2e157bc13b61a0f5c6e41b666b188",
-                "reference": "305b2328d2a2e157bc13b61a0f5c6e41b666b188",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/50426855f7a77ddf43b9266c22320df5bf6c6ce6",
+                "reference": "50426855f7a77ddf43b9266c22320df5bf6c6ce6",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "^2.0|^1.0",
-                "php": ">=5.3.8"
+                "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+                "php": ">=5.3.8",
+                "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5"
             },
             "require-dev": {
-                "react/event-loop": "^0.4|^0.3",
-                "react/promise": "^2.0|^1.0"
-            },
-            "suggest": {
-                "react/event-loop": "^0.4",
-                "react/promise": "^2.0"
+                "clue/stream-filter": "~1.2",
+                "phpunit/phpunit": "^6.4 || ^5.7 || ^4.8.35"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.5-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "React\\Stream\\": "src"
@@ -2624,12 +2959,18 @@
             "license": [
                 "MIT"
             ],
-            "description": "Basic readable and writable stream interfaces that support piping.",
+            "description": "Event-driven readable and writable streams for non-blocking I/O in ReactPHP",
             "keywords": [
+                "event-driven",
+                "io",
+                "non-blocking",
                 "pipe",
-                "stream"
+                "reactphp",
+                "readable",
+                "stream",
+                "writable"
             ],
-            "time": "2015-10-07 18:32:58"
+            "time": "2019-01-01T16:15:09+00:00"
         },
         {
             "name": "renegade334/phergie-irc-plugin-react-ping",
@@ -2691,7 +3032,7 @@
                 "issues": "https://github.com/Renegade334/phergie-irc-plugin-react-ping/issues",
                 "source": "https://github.com/Renegade334/phergie-irc-plugin-react-ping"
             },
-            "time": "2015-12-29 19:02:43"
+            "time": "2015-12-29T19:02:43+00:00"
         },
         {
             "name": "shutterstock/phergie-irc-plugin-react-bigstock",
@@ -2766,40 +3107,56 @@
                 "issues": "https://github.com/shutterstock/phergie-irc-plugin-react-bigstock/issues",
                 "source": "https://github.com/shutterstock/phergie-irc-plugin-react-bigstock"
             },
-            "time": "2015-12-31 14:53:50"
+            "time": "2015-12-31T14:53:50+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.2",
+            "version": "v5.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d0239fb42f98dd02e7d342f793c5d2cdee0c478d"
+                "reference": "d29e2d36941de13600c399e393a60b8cfe59ac49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d0239fb42f98dd02e7d342f793c5d2cdee0c478d",
-                "reference": "d0239fb42f98dd02e7d342f793c5d2cdee0c478d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d29e2d36941de13600c399e393a60b8cfe59ac49",
+                "reference": "d29e2d36941de13600c399e393a60b8cfe59ac49",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
-                "symfony/polyfill-mbstring": "~1.0"
+                "php": "^7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/service-contracts": "^1.1|^2"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<4.4",
+                "symfony/event-dispatcher": "<4.4",
+                "symfony/lock": "<4.4",
+                "symfony/process": "<4.4"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0"
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/event-dispatcher": "~2.1|~3.0.0",
-                "symfony/process": "~2.1|~3.0.0"
+                "symfony/config": "^4.4|^5.0",
+                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^4.4|^5.0",
+                "symfony/lock": "^4.4|^5.0",
+                "symfony/process": "^4.4|^5.0",
+                "symfony/var-dumper": "^4.4|^5.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": "",
+                "symfony/lock": "",
                 "symfony/process": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -2826,20 +3183,78 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-01-14 08:33:16"
+            "time": "2020-02-24T15:05:31+00:00"
         },
         {
-            "name": "symfony/polyfill-mbstring",
-            "version": "v1.0.1",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/49ff736bd5d41f45240cec77b44967d76e0c3d25",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.14-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2020-01-13T11:15:53+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
                 "shasum": ""
             },
             "require": {
@@ -2851,7 +3266,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -2885,29 +3300,87 @@
                 "portable",
                 "shim"
             ],
-            "time": "2015-11-20 09:19:13"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
-            "name": "symfony/process",
-            "version": "v2.8.2",
+            "name": "symfony/polyfill-php73",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac"
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "5e66a0fa1070bf46bec4bea7962d285108edd675"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/d9d21cfcc3e202ee34777d6da38897695d4d208d",
-                "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/5e66a0fa1070bf46bec4bea7962d285108edd675",
+                "reference": "5e66a0fa1070bf46bec4bea7962d285108edd675",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.3.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "1.14-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-01-13T11:15:53+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v5.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "fd4a86dd7e36437f2fc080d8c42c7415d828a0a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/fd4a86dd7e36437f2fc080d8c42c7415d828a0a8",
+                "reference": "fd4a86dd7e36437f2fc080d8c42c7415d828a0a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -2934,32 +3407,225 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-01-06 09:59:23"
+            "time": "2020-02-08T17:00:58+00:00"
         },
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v2.2.0",
+            "name": "symfony/service-contracts",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "144c5e51266b281231e947b51223ba14acf1a749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
-                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/144c5e51266b281231e947b51223ba14acf1a749",
+                "reference": "144c5e51266b281231e947b51223ba14acf1a749",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": "^7.2.5",
+                "psr/container": "^1.0"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.0"
+            "suggest": {
+                "symfony/service-implementation": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2019-11-18T17:27:11+00:00"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v5.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "e9b93f42a1fd6aec6a0872d59ee5c8219a7d584b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/e9b93f42a1fd6aec6a0872d59ee5c8219a7d584b",
+                "reference": "e9b93f42a1fd6aec6a0872d59ee5c8219a7d584b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/translation-contracts": "^2"
+            },
+            "conflict": {
+                "symfony/config": "<4.4",
+                "symfony/dependency-injection": "<5.0",
+                "symfony/http-kernel": "<5.0",
+                "symfony/twig-bundle": "<5.0",
+                "symfony/yaml": "<4.4"
+            },
+            "provide": {
+                "symfony/translation-implementation": "2.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "^4.4|^5.0",
+                "symfony/console": "^4.4|^5.0",
+                "symfony/dependency-injection": "^5.0",
+                "symfony/finder": "^4.4|^5.0",
+                "symfony/http-kernel": "^5.0",
+                "symfony/intl": "^4.4|^5.0",
+                "symfony/service-contracts": "^1.1.2|^2",
+                "symfony/yaml": "^4.4|^5.0"
+            },
+            "suggest": {
+                "psr/log-implementation": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Translation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-02-04T07:41:34+00:00"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation-contracts.git",
+                "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+                "reference": "8cc682ac458d75557203b2f2f14b0b92e1c744ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "suggest": {
+                "symfony/translation-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Translation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to translation",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2019-11-18T17:27:11+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "reference": "2a7dcf7e3e02dc5e701004e51a6f304b713107d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "^1.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -2969,7 +3635,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2979,26 +3645,25 @@
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-            "homepage": "http://github.com/vlucas/phpdotenv",
             "keywords": [
                 "dotenv",
                 "env",
                 "environment"
             ],
-            "time": "2015-12-29 15:10:30"
+            "time": "2019-01-29T11:11:52+00:00"
         },
         {
             "name": "wyrihaximus/react-guzzle-http-client",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/react-guzzle-http-client.git",
-                "reference": "2a18aa3a6cb6d6c565827d63e8c344a7a8755741"
+                "reference": "a4606fd093b4d2d61a155930fb303ac760c2be1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/react-guzzle-http-client/zipball/2a18aa3a6cb6d6c565827d63e8c344a7a8755741",
-                "reference": "2a18aa3a6cb6d6c565827d63e8c344a7a8755741",
+                "url": "https://api.github.com/repos/WyriHaximus/react-guzzle-http-client/zipball/a4606fd093b4d2d61a155930fb303ac760c2be1d",
+                "reference": "a4606fd093b4d2d61a155930fb303ac760c2be1d",
                 "shasum": ""
             },
             "require": {
@@ -3032,7 +3697,7 @@
                 }
             ],
             "description": "Asyncronous GuzzleRing adapter powered by react/http-client",
-            "time": "2015-11-03 17:37:13"
+            "time": "2016-03-27T19:35:08+00:00"
         },
         {
             "name": "wyrihaximus/react-guzzle-ring",
@@ -3080,7 +3745,7 @@
                 }
             ],
             "description": "Asyncronous GuzzleRing adapter powered by react/http-client",
-            "time": "2015-08-10 20:29:53"
+            "time": "2015-08-10T20:29:53+00:00"
         }
     ],
     "packages-dev": [],
